@@ -77,7 +77,7 @@ fieldset{
  font-size: 20px;
  font-weight: bold;
  font-family: 'Yanone Kaffeesatz', sans-serif;
- margin-left: 350px;}
+ margin-left: 470px;}
 
 #t1{
     width: 240px;
@@ -113,4 +113,21 @@ fieldset{
 .right{
     float: right;
     margin-right: 200px;
+}
+#bt1{
+    margin-top: 200px;
+   width: 210px;
+   background-color:#2d3436 ;
+   color: white;
+
+ 
+}
+#id{
+   margin-left: 500px; 
+}
+#bt2{
+    margin-top: 150px;
+   width: 210px;
+   background-color:#2d3436 ;
+   color: white; 
 }
