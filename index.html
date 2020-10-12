@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Cars Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="container">
+    <!-----------------logo ------------------------>
+<header>
+    <nav>
+       <!--  <div class="logo">
+            <img src="/photos/logo2.jpg" alt="">
+        </div>
+        -->
+        
+   <!------------------Search------------------------------>     
+   <!--     <div class="search">
+            <input type="search" placeholder="rechercher">
+            <input type="submit" value=">">
+        </div>-->
+    <!------------------navbar---------------------------->    
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="gallerie.html"> Gallerie</a></li>
+                <li><a href="réservation.html">Réservation</a>
+                    <ul class="drop-down-menu">
+                        <li><a href="réservation.html">Réservation</a> </li>
+                        <li><a href="réservation.html"> Modification</a></li>
+                        <li><a href="réservation.html"> Annulation </a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+</header> 
+<!----------------Slide show---------------------->
+<section class="banner cycle-slideshow">
+    <img src="/photos/5.jpg" alt="" id="b1">
+    <img src="/photos/9.jpg" alt="" id="b1">
+    
+</section>
+<!-------------------Titre de la page-------------------------------->
+<section>
+    <div class="title">
+    <span>Besoin d'une voiture à Location , <br>
+     vous êtes au bon endroit !
+    </span>
+    <div class="boutons">
+    <button type="submit" id="bt1">En Savoir PLus</button>
+    <button type="submit" id="bt1">Contactez Nous </button>
+    </div>
+    </div>
+</section>
+<!------------------------Formulaire de Reservation---------------------------------->
+<section class="content-holder">
+    <div id="content">
+     <form >
+      <fieldset class="form">
+      <span id="Titre-reservation"> Chercher disponibilité d'une voiture  </span>  <br><br><br>
+      <input id="t1" type="text" placeholder="Agence Prise en charge " required>
+      <input id="t2" type="text" placeholder="Agence de retour " required> <br><br>
+      <label id="t3"  for="">Date de Prise en charge </label> 
+      <input id="t4"  type="date" required>
+     <div id="t5">
+      <label  for="">Heure de Prise en charge </label> 
+      <input id="t9"   type="time" required><br><br>
+    </div>
+     <div class="clearfix"></div>
+      <label id="t8" for="">Date de Retour </label> 
+      <input id="t7"  type="date" required>
+    <div id="t6">
+      <label  for="">Heure de retour</label> 
+      <input id="t11" type="time" required>
+    </div>
+    <input id="bt2" type="submit" value="Rechercher"> 
+    
+     </fieldset>
+    </form>
+</div>
+</section >
+   <!------------------Side bar :Contact Us----------------------->
+    <aside class="aside_holder">
+    <div class="sidebar">
+      <img src="/photos/email.jpg" id="email" alt=""><span id="mail"> eyarmili18@gmail.com </span><br><br>
+      <img src="/photos/tel2.jpg" id="tél" alt=""><span id="num">23569871</span> <br><br>
+      <img src="/photos/f.jpg" id="f" alt=""><span id="face">Eyaa Rmiilii</span>
+     
+    </div>
+</aside>
+  <section>
+    <div id="a-propos">
+       <span id="title-apropos">A Propos</span>
+        <p><br>
+         Des vacances de rêve. Sans la contrainte du transport. Voilà ce que notre agence de
+          location de voitures vous propose. Disposant d’un grand parc automobile réunissant 
+          toutes sortes de véhicules de location : premiums, citadines, utilitaires et voitures 
+          de luxe, Avantgarde arrive à satisfaire une clientèle des plus exigeantes. Nous accordons
+           la plus grande importance aux horaires de livraisons et à l’état de nos voitures de 
+           location. Nous veillons toujours à leur bon entretien. C’est ce qui fait le fort 
+           d’Avantgarde. Vous pouvez avoir votre devis de location de voiture et faire la 
+           réservation de votre véhicule en ligne. 
+        </p>
+    </div>
+  </section>
+<div class="clearfix"></div>
+<footer class="foot">
+    
+    <div class="formulaire">
+        <span id="contact">Contact Us </span><br><br><br>
+        <form >
+            <fieldset id="fields">
+              <label for="">Nom </label>
+              <input type="text" name="" id="" required><br><br>
+              <label for="Email">Email</label>
+              <input type="email" required><br><br>
+              <label for="">Message</label>
+             <textarea name="" id="" cols="15" rows="5"></textarea><br><br><br><br>
+             <input type="submit" value="Envoyer">
+           </fieldset>
+        </form><br><br>
+      
+        <p id="f1">Copyright 2020 .All Rights Reserved.
+        <a href="#"><i class="fa fa-dribbble" id="a1"></i></a>
+        <a href="#"><i class="fa fa-twitter" id="a1"></i></a>
+        <a href="#"><i class="fa fa-linkedin"id="a1"></i></a>
+        <a href="#"><i class="fa fa-facebook"id="a1"></i></a>
+    </p>
+    </div>
+    
+
+</footer>
+
+<!----------------Scripts tag de jquery et cycle2---------------------------------->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</div> 
+
+</body>
+
+</html>

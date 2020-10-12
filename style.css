@@ -1,0 +1,270 @@
+Body{
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;/*margin right auto et left aussi pour que la page soit au centre*/
+   
+}
+/*.logo{
+   padding: 0px;
+
+    float: left;
+  
+}*/
+
+.search{
+    float: right;
+    padding:15px;
+    position: relative;
+    z-index: 1;
+}
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    float:right;
+    width: 100%;
+    background-color: #2d3436; 
+    position: fixed;
+    height: 70px;
+  
+    
+      
+}
+.navbar>ul{
+    list-style-type: none;
+   
+   
+}
+.navbar>ul>li{
+    display: inline-block;
+   
+}
+.navbar>ul>li :hover{
+    opacity: 0.20;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+
+}
+/* drop*/
+.drop-down-menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;/*pour que la liste de réservation sera caché*/
+    z-index: 999;     /*quand on a fait le slide la menu est disparut donc on augmenter la valeur du drop*/
+
+}
+.navbar>ul>li:hover .drop-down-menu
+{
+display: block;
+
+}
+.drop-down-menu>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: #2d3436;
+}
+
+.banner{
+    width: 100%;
+    height: 666px;
+    overflow: hidden;/*tout ce qui arrive aprés le div sera caché  Exemple  a propos*/
+    z-index: -1;
+
+}
+.banner img{
+ width: 100%;
+ height: auto;
+}
+.title{
+    float: right;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 50%;
+   margin-top:-500px;
+   z-index: 1;
+   position: relative;
+   color: white;
+}
+.boutons{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 100px;
+  
+}
+#bt1{
+    background-color: transparent;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    width: 200px;
+}
+#bt1:hover
+{ 
+color: red;
+}
+.content-holder{
+  
+    background-color: white;
+}
+#content{
+    width: 100%;
+    height: auto;
+    background-color: #2d3436;
+ 
+  
+   
+}
+fieldset{
+    height: 300px;
+}
+#content p{
+    margin: 0px;
+    height:auto;
+}
+#Titre-reservation{
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ margin-left: 350px;}
+
+#t2{
+float:right;
+width: 241.64px;
+margin-right: 150px;
+}
+#t9{
+    margin-right: 150px;  
+}
+#t10{
+    margin-right: 210px;    
+}
+#t11{
+    margin-right: 150px;
+    width: 130px;
+}
+#t5{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+#t6{
+    float: right;
+}
+#t1{
+    width:308.75px;
+    margin-left: 100px;
+}
+#t3{
+    margin-left: 100px;
+}
+#t8{
+    margin-left: 100px;
+}
+#t7{
+    width: 200px;
+}
+#bt2{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 50px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.sidebar{
+   display: flex;
+   flex-direction: column;
+}
+#email{
+width: 70px;
+height: 70px;
+
+}
+#tél{
+width: 70px;
+height: 70px;
+}
+#f{
+width: 70px;
+height: 70px;
+}
+#insta{
+    width: 70px;
+    height: 70px;    
+}
+#mail{
+    margin-left: 80px;
+    margin-top: -35px;
+}
+#num{
+    margin-left: 80px;
+margin-top: -25px;}
+#face{
+    margin-left: 80px;
+    margin-top: -35px;
+}
+.aside_holder{
+    float: right;
+    width: 250px;
+}
+#a-propos{
+    float: left;
+    width: 750px;
+}
+#a-propos p{
+    text-align: justify;
+    font-size: 23px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#title-apropos{
+    font-family:  'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+.formulaire{
+    background-color:#2d3436;
+    color: white;
+    height: 400px;
+    
+   
+}
+#fields{
+    margin-left: 270px;
+    width: 400px;
+    height: 250px;
+    
+}
+#contact{
+    font-family:  'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    float: right;
+    margin-right: 450px;
+}
+#f1{
+    text-align: center;
+}
+#a1{
+    text-decoration: none;
+  font-size: 22px;
+  color: black;
+}

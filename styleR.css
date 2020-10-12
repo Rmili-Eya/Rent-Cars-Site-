@@ -1,0 +1,116 @@
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    float:right;
+    width: 100%;
+    background-color: #2d3436; 
+    position: fixed;
+    height: 70px;
+  
+    
+      
+}
+.navbar>ul{
+    list-style-type: none;
+   
+   
+}
+.navbar>ul>li{
+    display: inline-block;
+   
+}
+.navbar>ul>li :hover{
+    opacity: 0.20;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+
+}
+/* drop*/
+.drop-down-menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;/*pour que la liste de réservation sera caché*/
+    z-index: 999;     /*quand on a fait le slide la menu est disparut donc on augmenter la valeur du drop*/
+
+}
+.navbar>ul>li:hover .drop-down-menu
+{
+display: block;
+
+}
+.drop-down-menu>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: #2d3436;
+}
+.content-holder{
+  
+    background-color: white;
+}
+#content{
+    width: 100%;
+    height: auto;
+    background-color: white;
+ 
+  
+   
+}
+fieldset{
+    height: 300px;
+}
+#content p{
+    margin: 0px;
+    height:auto;
+}
+#Titre-reservation{
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ margin-left: 350px;}
+
+#t1{
+    width: 240px;
+}
+#t3{
+    width: 260px; 
+}
+#t4{
+    width: 280px;
+}
+#t5{
+    width: 190px;
+}
+#t6{
+    width: 250px;
+}
+#t7{
+    width: 290px;
+}
+#t8{
+    width: 310px;
+}
+#t9{
+    width: 220px;
+}
+.left{
+    float: left;
+    margin-left: 200px;
+}
+.clearfix{
+    clear: both;
+}
+.right{
+    float: right;
+    margin-right: 200px;
+}

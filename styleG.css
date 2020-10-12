@@ -1,0 +1,104 @@
+.navbar{
+  padding: 0px;
+  margin: 0px;
+  float:right;
+  width: 100%;
+  background-color: #2d3436; 
+  position: fixed;
+  height: 70px;
+
+  
+    
+}
+.navbar>ul{
+  list-style-type: none;
+ 
+ 
+}
+.navbar>ul>li{
+  display: inline-block;
+ 
+}
+.navbar>ul>li :hover{
+  opacity: 0.20;
+}
+.navbar>ul>li>a{
+  text-decoration: none;
+  color:white;
+  display: block;
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+
+}
+/* drop*/
+.drop-down-menu{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;/*pour que la liste de réservation sera caché*/
+  z-index: 999;     /*quand on a fait le slide la menu est disparut donc on augmenter la valeur du drop*/
+
+}
+.navbar>ul>li:hover .drop-down-menu
+{
+display: block;
+
+}
+.drop-down-menu>li>a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+  background-color: #2d3436;
+}
+
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+   
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  .first-column{
+      float: left;
+  }
+  .second-column{
+      float: right;
+  }
+  .third-column{
+      float: center;
+  }
