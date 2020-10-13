@@ -10,6 +10,11 @@
     
       
 }
+form{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px  ;
+}
 .navbar>ul{
     list-style-type: none;
    
@@ -117,7 +122,7 @@ fieldset{
 #bt1{
     margin-top: 200px;
    width: 210px;
-   background-color:#2d3436 ;
+   background-color:black;
    color: white;
 
  
@@ -134,7 +139,7 @@ fieldset{
 #bt2{
     margin-top: 150px;
    width: 210px;
-   background-color:#2d3436 ;
+   background-color:black ;
    color: white; 
 }
 
@@ -147,4 +152,10 @@ fieldset{
 }
 #l1{
     width: 260px;
+}
+#btA{
+    margin-left: 500px;
+    width: 210px;
+    background-color: black;
+    color: white;
 }
