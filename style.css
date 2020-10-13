@@ -29,6 +29,7 @@ Body{
     background-color: transparent; 
     position: fixed;
     height: 70px;
+    box-shadow: 1px 1px 3px;
   
     
       
@@ -283,22 +284,28 @@ margin-top: -25px;}
     padding-top: 20px;
 }
 .foot{
-    background-color: black;
+    background-color: #636e72;
     width: 100%;
 }
 .formulaire{
    
     color: white;
-    height: 400px;
-    
-    
-   
+    height: 400px;  
+}
+#envoyer{
+    margin-left: 100px;
+    background-color: transparent;
+    color: white;
 }
 #fields{
     margin-left: 30px;
     width: 400px;
-    height: 250px;
+    height: 270px;
     
+}
+#message{
+    margin-left: 30px;
+    width: 170px;
 }
 #contact{
     font-family:  'Yanone Kaffeesatz', sans-serif;
