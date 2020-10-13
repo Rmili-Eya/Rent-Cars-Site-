@@ -42,11 +42,11 @@ Body{
    
 }
 .navbar>ul>li :hover{
-    opacity: 0.20;
+  color: #2d3436;  
 }
 .navbar>ul>li>a{
     text-decoration: none;
-    color:white;
+    color:black;
     display: block;
     padding: 15px;
     font-size: 25px;
@@ -74,7 +74,7 @@ display: block;
     color: white;
     display: block;
     padding: 15px;
-    background-color: #2d3436;
+    background-color: black;
 }
 
 .banner{
@@ -112,13 +112,13 @@ display: block;
     font-size: 25px;
     width: 200px;
 }
-#bt1:hover
-{ 
 
-}
 .content-holder{
   
-    background-color: white;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 4px  ;
 }
 #content{
     width: 100%;
@@ -234,6 +234,9 @@ margin-top: -25px;}
 #a-propos{
     position: relative;
     z-index: 1;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px  ;
   
 }
 #back2{
@@ -253,16 +256,20 @@ margin-top: -25px;}
     margin-left: 550px;
     padding-top: 20px;
 }
-
+.foot{
+    background-color: black;
+    width: 100%;
+}
 .formulaire{
-    background-color:#2d3436;
+   
     color: white;
     height: 400px;
+    
     
    
 }
 #fields{
-    margin-left: 270px;
+    margin-left: 30px;
     width: 400px;
     height: 250px;
     
@@ -272,7 +279,8 @@ margin-top: -25px;}
     font-weight: bolder;
     font-size: 50px;
     float: right;
-    margin-right: 800px;
+    margin-right: 1100px;
+
 }
 #f1{
     text-align: center;
@@ -280,7 +288,7 @@ margin-top: -25px;}
 #a1{
     text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
