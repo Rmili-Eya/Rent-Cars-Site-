@@ -38,7 +38,11 @@
               <input id="t1" type="text" required><br><br>
               <label  for="">tél</label>
               <input id="t3" type="text"><br><br>
-              <input id="t4" type="text" placeholder="Agence Prise en charge "><br><br>
+              <label for="">Agence Price en charge</label>
+              <select name=" " id="s1">
+                  <option value="-1">Tunis</option>
+                  <option value="">Sousse</option>
+              </select><br><br>
               <label  for="">Date Prise en charge </label>
               <input type="date"><br><br>
               <label for="">Date de retour</label>
@@ -50,7 +54,11 @@
             <input id="t6" type="text" required><br><br>
             <label  for="">Id</label>
             <input id="t7" type="text"><br><br>
-            <input id="t8" type="text" placeholder="Agence de Retour "><br><br>
+            <label for="">Agence de retour</label>
+            <select name=" " id="s2">
+                <option value="-1">Tunis</option>
+                <option value="">Sousse</option>
+            </select><br><br>
             <label  for="">Heure de Prise en charge </label>
             <input type="date"><br><br>
             <label for="">Date de retour</label>
@@ -74,7 +82,11 @@
                 <input type="text">
             </div> <br>
                 <div class="left" >
-                    <input id="t4" type="text" placeholder="Agence Prise en charge "><br><br>
+                    <label for="">Agence Price en charge</label>
+                    <select name=" " id="s1">
+                        <option value="-1">Tunis</option>
+                        <option value="">Sousse</option>
+                    </select><br><br>
                     <label  for="">Date Prise en charge </label>
                     <input type="date"><br><br>
                     <label for="">Date de retour</label>
@@ -82,7 +94,11 @@
 
                 </div>
                 <div class="right">
-                    <input id="t8" type="text" placeholder="Agence de Retour "><br><br>
+                    <label for="">Agence de retour</label>
+              <select name=" " id="s2">
+                  <option value="-1">Tunis</option>
+                  <option value="">Sousse</option>
+              </select><br><br>
                     <label  for="">Heure de Prise en charge </label>
                     <input type="date"><br><br>
                     <label for="">Date de retour</label>
@@ -97,14 +113,15 @@
     <div>
         <form ><br><br>
             <fieldset>
-            <div> 
+            <div id="id-anuulation"> 
                 <label for="">Id</label>
-                <input type="text">
-            </div>
+                <input id="l1" type="text">
+            </div><br><br>
+            <div id="date-anuulation"> 
             <label  for="">Date Prise en charge </label>
             <input type="date"><br><br>
-
-            <input type="submit">
+            </div>
+            <input id="btA" type="submit">
             </fieldset>
         </form>
     </div>

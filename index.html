@@ -18,17 +18,13 @@
         </div>
         -->
         
-   <!------------------Search------------------------------>     
-   <!--     <div class="search">
-            <input type="search" placeholder="rechercher">
-            <input type="submit" value=">">
-        </div>-->
+  
     <!------------------navbar---------------------------->    
         <div class="navbar">
             <ul>
                 <li><a href="index.html">Acceuil</a></li>
                 <li><a href="#a-propos">A propos</a></li>
-                <li><a href="gallerie.html"> Gallerie</a></li>
+                <li><a href="#cars">Nos Voitures</a></li>
                 <li><a href="réservation.html">Réservation</a>
                     <ul class="drop-down-menu">
                         <li><a href="réservation.html">Réservation</a> </li>
@@ -56,8 +52,8 @@
      vous êtes au bon endroit !
     </span>
     <div class="boutons">
-    <button type="submit" id="bt1">En Savoir PLus</button>
-    <button type="submit" id="bt1">Contactez Nous </button>
+    <button type="submit" id="bt1"><a href="#a-propos"> En Savoir PLus</a></button>
+    <button type="submit" id="bt1"><a href="#fields">Contactez Nous </a> </button>
     </div>
     </div>
 </section><br><br>
@@ -84,23 +80,28 @@
 
 
    <!--------------------------Cards------------------------------------>
-   <section>
+   <section id="cars">
     <div class="first-row">
         <div class="card">
             <img src="/photos/rouge.jpg" alt="" style="width:100%">
-            <h1>Symbol Rouge</h1>
+            <h1>Renault Symbol </h1>
             <p class="price">$19.99</p>
-            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p>Marque:Symbol <br> <br> Couleur:Rouge <br><br>Porte:4 <br><br></p>
             <p><button><a href="réservation.html">Réserver</a> </button></p>
           </div>
       <div class="card">
         <img src="/photos/symbol gris.jpg" alt="" style="width:100%">
         <h1>Symbol</h1>
         <p class="price">$19.99</p>
-        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-        <p><button><a href="réservation.html">Réserver</a> </button></p>
+        <p>Marque:Symbol <br> <br> Couleur:Gris<br><br>Porte:4 <br><br></p>
+        <p><button><a href="réservation.html">Réserver</a> </button></p><br>
       </div>
+      <div > <br><br>
+            
+      </div>
+     
       </section>
+      <span id="voir-plus"><a href="gallerie.html">Voir Plus</a></span>
 
 
 <!------------------------Formulaire de Reservation---------------------------------->
@@ -109,32 +110,32 @@
         <div id="content">
          <form >
           
-          <span id="Titre-reservation"> Réserver une Voiture de Location </span><br>  <br><br><br>
+          <span id="Titre-reservation"> Rechercher la disponibilité d'une voiture </span><br>  <br><br><br>
           <div class="left" >
-              <label id="l"  for="">Nom</label>
-              <input id="t1" type="text" required><br><br>
-              <label id="l"  for="">tél</label>
-              <input id="t3" type="text"><br><br>
-              <input id="t4" type="text" placeholder="Agence Prise en charge "><br><br>
+              <label for="">Agence Price en charge</label>
+              <select name=" " id="s1">
+                  <option value="-1">Tunis</option>
+                  <option value="">Sousse</option>
+              </select><br><br>
               <label id="l"  for="">Date Prise en charge </label>
-              <input type="date"><br><br>
+              <input type="date" required><br><br>
               <label id="l" for="">Date de retour</label>
-              <input id="t5" type="date"><br><br>
+              <input id="t5" type="date"required><br><br>
           </div>
 
         <div class="right" >
-            <label id="l" for="">Prénom</label>
-            <input id="t6" type="text" required><br><br>
-            <label id="l" for="">Id</label>
-            <input id="t7" type="text"><br><br>
-            <input id="t8" type="text" placeholder="Agence de Retour "><br><br>
+            <label for="">Agence de Retour</label>
+            <select name=" " id="s2">
+                <option value="-1">Tunis</option>
+                <option value="">Sousse</option>
+            </select><br><br>
             <label id="l" for="">Heure de Prise en charge </label>
-            <input type="date"><br><br>
+            <input type="date" required><br><br>
             <label id="l" for="">Date de retour</label>
-            <input id="t9" type="date"><br><br>
+            <input id="t9" type="date" required><br><br>
         </div>
 
-       <input id="bt" type="submit" value="Réserver">
+       <input id="bt" type="submit" value="Rechercher">
         
          
           </form>
@@ -146,7 +147,7 @@
  
 
 
-
+<!-----------------------Contact Us--------------------------------------->
 <footer class="foot">
     
     <div class="formulaire">
@@ -170,6 +171,8 @@
         <a href="#"><i class="fa fa-facebook"id="a1"></i></a>
     </p>
     </div>
+    <!---------------Map------------------->
+    
     
 
 </footer>

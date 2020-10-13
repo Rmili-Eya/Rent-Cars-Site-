@@ -122,6 +122,12 @@ fieldset{
 
  
 }
+#s1{
+    width: 140px;
+}
+#s2{
+    width: 200px;
+}
 #id{
    margin-left: 500px; 
 }
@@ -130,4 +136,15 @@ fieldset{
    width: 210px;
    background-color:#2d3436 ;
    color: white; 
+}
+
+#id-anuulation{
+    margin-left: 500px;
+    
+}
+#date-anuulation{
+    margin-left: 500px;  
+}
+#l1{
+    width: 260px;
 }
