@@ -1,0 +1,234 @@
+@media only screen and  (max-width: 1280px) {
+   /*navbar*/
+    .navbar>ul>li>a{
+        float: none;
+        width: 100%;
+        width: auto;
+        margin: auto;
+        color: gray;
+        font-size: 15px;
+    }
+    /*background*/
+    #b1{
+        width:100%;
+    }
+    /*Titre de la page */
+    .title{
+        float: right;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        width: auto;
+        margin-top: -200px;
+       z-index: 1;
+       position: relative;
+       color: white;
+    }
+    /*2 boutons de background */
+    #bt1{
+        background-color: transparent;
+        
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 15px;
+        width: 100px;
+        
+    }
+    #bt2{
+        background-color: transparent;
+        
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 15px;
+        width: 100px;
+    
+    }
+    /*section a propos*/
+    #a-propos{
+        position: relative;
+        z-index: 1;
+        border: 1px solid;
+        padding: 5px;
+        
+      
+    }
+    
+    #a-propos p{
+        text-align: justify;
+        font-size: 15px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+       
+    }
+    #title-apropos{
+        font-family:  'Yanone Kaffeesatz', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-left: 200px;
+        padding-top: 20px;
+    }
+    /*Cards*/
+    .card {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        max-width: 150px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+       
+      }
+    /*style du lien voir plus*/
+    #voir-plus
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 250px;
+     }
+     #voir-plus a{
+         text-decoration: none;
+         color: black;
+         font-family: 'Yanone Kaffeesatz', sans-serif;
+         font-size: 12.5px;
+         
+     }
+     #voir-plus{
+         width: 25px;
+     }
+     /*content holder du formulaire reservation dans l'acceuil*/
+.content-holder{
+  
+
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 1px 2px 3px  ;
+
+}
+#content{
+    width: 50%;
+    height: auto;  
+}
+fieldset{
+    height: 150px;
+}
+#content p{
+    margin: 0px;
+    height:auto;
+}
+#Titre-reservation{
+ font-size: 12.5px;
+ font-weight: bold;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ margin-left: 250px;
+color: black;}
+ #l{
+    color: black;
+ }
+
+ 
+#t5{
+    width: 100px;
+}
+
+#t9{
+    width: 110px;
+}
+.left{
+    float: left;
+    margin-left: 10px;
+
+}
+.clearfix{
+    clear: both;
+}
+.right{
+    float: right;
+    margin-right: -300px;}
+
+#s1{
+    width: 35px;
+}
+#s2{
+    width: 50px;
+}
+#bt{
+    margin-top: 50px;
+   width: 50px;
+   background-color:black ;
+   color: white;
+   font-family:  'Yanone Kaffeesatz', sans-serif;
+   font-size: 10px;
+   margin-left: 200px;
+}
+#agence{
+    width: 15px;
+}
+#calendrier{
+    width: 15px;
+}
+#horloge{
+    width: 15px;
+}
+/*contact Us*/
+.foot{
+  
+    width: 50%;
+}
+#a1{
+    text-decoration: none;
+  font-size: 11px;
+  color: black;
+}
+.formulaire{
+   
+    color: black;
+    height: 200px;  
+}
+#envoyer{
+    margin-left: 50px;
+    background-color:transparent;
+    color: black;
+    width: 50px;
+    font-family:  'Yanone Kaffeesatz', sans-serif;
+    border-color:rgba(0, 0, 0, 0.2);
+
+
+}
+#fields{
+    margin-left: 15px;
+    width: 200px;
+    height: 270px;
+    
+}
+#message{
+    margin-left: 15px;
+    width: 80px;
+    
+}
+#contact{
+    font-family:  'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.2);
+
+}
+#f1{
+    margin-left: 100px;
+    font-size: 15px;
+}
+#nom{
+border-color:rgba(0, 0, 0, 0.2);
+}
+#email{
+    border-color:rgba(0, 0, 0, 0.2);
+}
+#message{
+    border-color:rgba(0, 0, 0, 0.2);
+    margin-left: -2px;
+}
+/*map*/
+#map{
+    width: 210px;
+    float: right;
+  margin-right: -220px;
+  margin-top: -320px;
+    
+    height: 300px;
+}
+
+}

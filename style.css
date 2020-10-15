@@ -15,7 +15,7 @@ Body{
 .navbar{
     padding: 0px;
     margin: 0px;
-    float:right;
+ 
     width: 100%;
     background-color: black; 
     position: fixed;
@@ -42,8 +42,11 @@ Body{
     font-size: 25px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: bold;
+  
 
 }
+
+
 
 /*Titre de la page */
 .title{
