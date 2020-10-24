@@ -223,12 +223,56 @@ border-color:rgba(0, 0, 0, 0.2);
 }
 /*map*/
 #map{
-    width: 210px;
+    width: 300px;
     float: right;
-  margin-right: -220px;
-  margin-top: -320px;
-    
+    margin-right: -500px;
+    margin-top: -320px;
     height: 300px;
+
 }
+/*Sur Les écrans de 600px width et moins */
+@media only screen and (max-width:600px)
+{ #b1{
+    width: 600px;
+}
+#a-propos{
+    position: relative;
+    z-index: 1;
+    border: 1px solid;
+    padding: 5px;
+    width: 600px;
+
+  
+}
+.firstrow{
+    display:flex;
+   flex-wrap: wrap; 
+   justify-items: center; 
+ 
+   
+}
+.card{
+    margin-left: 100px;
+    min-width: 300px;
+}
+.title{
+    text-align: center;
+    
+}
+#bt1{
+position: fixed;
+}
+#bt2{
+   position: fixed; 
+}
+
+#map{
+    margin-left: 300px;
+}
+
+
+
+
+
 
 }
